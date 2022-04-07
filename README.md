@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Image gallery
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Stack
+
+This project uses the following stack & services:
+- [React](https://github.com/facebook/create-react-app)
+- [Cypress](https://www.cypress.io/)
+- [Jest](https://jestjs.io/)
+
+### Prerequisites
+
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Node `v16`, install with [NVM](https://github.com/nvm-sh/nvm)
+- NPM `>v8`, installed with node
 
 ## Available Scripts
 
@@ -18,6 +31,14 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm test:e2e`
+
+Launches the End-to-End test runner in the simulation watch mode.\
+
+### `npm test:e2e:interact`
+
+Launches the End-to-End test runner in the interactive watch mode.\
 
 ### `npm run build`
 
